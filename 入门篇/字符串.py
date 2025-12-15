@@ -45,3 +45,20 @@ b = 1
 c = 2
 str1 = "%s, %d, %f" % (a, b, c)  # 使用%格式化字符串
 print(str1)
+
+num1 = 12
+num2 = 34.567
+print("宽度限制为5: %5d" % num1)
+print("宽度限制为5，小数精度2: %5.2f" % num1)
+print("宽度限制为6，小树精度为2: %6.2f" % num2)
+print("宽度不限制，小数精度为2: %.2f" % num2)
+
+varStr = "hello"
+varNum = 123
+varObj = {"key": "value"}
+# f: format 首字母
+print(f"字符串: {varStr}, 数字: {varNum}, 对象: {varObj}")  # f字符串格式化
+
+print("1*1的结果是 %s" % (1 * 1))
+print(f"1*2的结果是{1 * 2}")
+print("字符串在python中的类型名是 %s" % type("字符串"))
