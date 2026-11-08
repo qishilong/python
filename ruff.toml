@@ -1,0 +1,12 @@
+[format]
+# 保留字符串原有引号风格, 不让格式化把 ''' 改成 """
+# "double"（默认）：字符串统一用双引号 " / """
+# "single"：字符串优先用单引号 ' / '''
+# "preserve"：保持所有字符串原有引号不动，单双引号混用也不管
+quote-style = "preserve"
+
+docstring-code-format = true
+
+[lint]
+ignore = ['UP003'] # 不自动格式化，不提示
+# unfixable = ["UP003"] # 仅提示，不自动格式化
