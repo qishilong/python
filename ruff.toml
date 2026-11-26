@@ -9,4 +9,4 @@ docstring-code-format = true
 
 [lint]
 ignore = ['UP003'] # 不自动格式化，不提示
-# unfixable = ["UP003"] # 仅提示，不自动格式化
+unfixable = ["UP004"] # 仅提示，不自动格式化
